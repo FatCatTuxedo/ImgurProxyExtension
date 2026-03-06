@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://proxy.duckduckgo.com/iu/?u=https://i.imgur.com/\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://i\\.imgur\\.com/(.*)",
+      "resourceTypes": ["image", "main_frame", "sub_frame"]
+    }
+  }
+]
